@@ -3,6 +3,7 @@
     "outDir": "./lib",
     "target": "es5",
     "module": "commonjs",
+    "strict": false,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "esModuleInterop": true,
@@ -10,9 +11,10 @@
     "removeComments": true,
     "declaration": false,
     "sourceMap": true,
+    "allowJs": true,
     "jsx": "react",
     "typeRoots": ["index.d.ts", "node_modules/@types"]
   },
-  "include": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "include": ["./src/**/*.tsx", "./src/**/*.ts", "./src/index.d.ts"],
   "exclude": ["node_modules"]
 }
