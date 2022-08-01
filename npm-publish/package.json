@@ -1,7 +1,8 @@
 {
-  "name": "toggle-10d",
-  "version": "1.0.0",
-  "main": "lib/index.js",
+  "name": "travel-header-demo",
+  "version": "2.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -11,6 +12,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.4",
@@ -39,8 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/prettier": "^2.6.0"
   }
 }
