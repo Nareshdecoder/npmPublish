@@ -1,7 +1,6 @@
 {
-  "name": "npm-publish",
-  "version": "0.1.0",
-  "private": true,
+  "name": "toggle-10d",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
